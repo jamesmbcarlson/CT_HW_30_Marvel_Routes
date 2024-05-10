@@ -7,7 +7,8 @@ function NavBar() {
     const navigate = useNavigate();
   return (
     <nav>
-        <img src='/src/assets/images/icon_shield.svg' onClick={() => navigate('/')}/>
+        {/* <img src='/src/assets/images/icon_shield.svg' onClick={() => navigate('/')}/> */}
+        <div className={styles.iconContainer} onClick={() => navigate('/')}></div>
         <NavLink to='/'
             className={({ isActive }) => 
             isActive ? styles.active : styles.inactive }>Home
