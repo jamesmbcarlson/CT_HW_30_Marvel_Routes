@@ -1,0 +1,42 @@
+nav {
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(45deg, rgb(30, 18, 105), rgb(13, 17, 70));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+}
+
+nav img {
+    height: 48px;
+    margin-left:24px;
+    filter: invert(100%);
+}
+
+a {
+    margin-left: 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.active {
+    color: rgb(255, 215, 37);
+}
+
+.inactive {
+    color: white;
+}
+
+.inactive:hover {
+    color: rgb(255, 230, 120);
+}
+
+@media screen and (max-width: 600px) {
+
+    a {
+        margin-left: 16px;
+    }
+}

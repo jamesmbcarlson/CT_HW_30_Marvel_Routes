@@ -1,0 +1,18 @@
+body {
+  background-image: url('./assets/images/bg_helicarrier.jpg');
+  background-size:cover;
+  background-position: center;
+  background-attachment:fixed;
+
+  min-height: 100vh;
+  padding: 0px 20px;
+  margin: 0px;
+  box-sizing: inherit;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color: rgba(255, 255, 255, 0.9);
+
+}
+
+

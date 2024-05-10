@@ -1,0 +1,86 @@
+.listContainer {
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 120px;    
+
+    /* border: 2px solid red; */
+}
+
+.offsetButtons {
+    /* background-color: blue; */
+
+    max-width: 320px;
+    margin: 16px;
+    padding: 0px 10px;
+}
+
+.offsetButtons button {
+    width: 60px;
+    height: 30px;
+
+    margin: 0px 4px;
+
+    background: linear-gradient(45deg, rgb(45, 43, 58), rgb(42, 44, 68));
+    color: white;
+
+    border: 1px solid rgb(99, 135, 235);
+    border-radius: 0.4em;
+    box-shadow: 3px 3px 3px rgb(12, 7, 54);
+}
+
+.characterCard {
+    width: 320px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    margin: 16px;
+    padding: 10px;
+
+    background: linear-gradient(45deg, rgb(45, 43, 58), rgb(42, 44, 68));
+
+    border: 1px solid rgb(99, 135, 235);
+    border-radius: 1em;
+    box-shadow: 3px 3px 3px rgb(12, 7, 54);
+    
+    overflow: hidden;
+}
+
+.characterCard:hover, .offsetButtons button:hover {
+    background: linear-gradient(45deg, rgb(69, 66, 88), rgb(60, 63, 97));
+    border: 1px solid rgb(152, 179, 255);
+}
+
+.characterCard img {
+    display: inline;
+    width: 80px;
+
+    margin-right: 16px;
+
+    border: 1px solid rgb(99, 135, 235);
+    border-radius: 4px;
+
+    
+}
+
+.characterCard h3, .characterCard h4 {
+    display: inline;
+
+    text-align: left;
+
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+
+    .offsetButtons {
+        margin: 16px auto;
+    }
+
+    .characterCard {
+        margin: 16px auto;
+    }
+}

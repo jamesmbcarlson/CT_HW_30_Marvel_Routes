@@ -1,0 +1,107 @@
+.detailContainer {
+    padding: 0px 40px;
+}
+
+.detailPane {
+    max-width: 800px;
+    height:fit-content;
+
+    margin: 30px auto;
+
+    border: 2px solid rgb(99, 135, 235);
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px rgb(27, 27, 27);
+    
+    background: linear-gradient(45deg, rgb(45, 43, 58), rgb(42, 44, 68));
+    opacity:98%;
+    z-index: 1;
+    pointer-events: all;
+}
+
+.windowHead{
+    /* border: 2px solid red; */
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background: linear-gradient(45deg,rgb(6, 6, 95), rgb(7, 7, 68));
+
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.windowHead h3 {
+    margin: auto 20px;
+    font-weight: normal;
+}
+
+.windowHead button {
+    width: 40px;
+    height: 40px;
+
+    margin: auto 5px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg,rgb(114, 1, 1), rgb(209, 3, 3));    
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.windowHead button:hover, .windowHead button:focus {
+    background: linear-gradient(45deg,rgb(99, 1, 1), rgb(189, 4, 4)); 
+
+    border: 1px solid white;
+}
+
+.windowHead button h6 {
+    position: relative;
+    top: 1px;
+    font-size: 32px;
+    color: white;
+    
+}
+
+.windowBody{
+    display: flex;
+}
+
+.imageContainer{
+    padding: 12px;
+}
+
+.textContainer {
+    padding: 12px;
+    padding-right: 24px;
+    text-align: left;
+}
+
+.textContainer ul {
+    margin-top: -12px;
+}
+
+.detailPane img {
+    width: 256px;
+
+    display: inline;
+    border: 1px solid rgb(99, 135, 235);
+    border-radius: 0.2em;
+}
+
+@media screen and (max-width: 600px) {
+
+    .windowBody{
+        flex-direction: column;
+    }
+
+    .detailPane img {
+        width: 90%;
+    }
+}
