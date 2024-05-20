@@ -1,3 +1,5 @@
+*View this project deployed online at https://jc-marvel-db.netlify.app/
+
 # Marvel API
 Author: James Carlson
 
