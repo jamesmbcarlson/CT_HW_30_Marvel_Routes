@@ -21,7 +21,7 @@ nav img {
     width: 48px;
     height: 48px;
 
-    background-image: url('./src/assets/images/logo_shield.png');
+    background-image: url('../assets/images/logo_shield.png');
     background-size: 48px;
     background-repeat:no-repeat;
 }
